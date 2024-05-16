@@ -1,0 +1,26 @@
+{
+  "rat": {
+    "name": "Rat",
+    "flavor": "A furry creature, not particularly dangerous, unless in large groups.",
+    "attributes": {"might": 2, "agility": 5, "intellect": 2, "presence": 3, "fortitude": 0, "cunning": 5},
+    "perks": [{"id": "resist", "x": "Disease"}, "swarm"],
+    "inventory": [
+      {
+        "name": "Bite",
+        "flavor": "A sword generally shorter than one meter, but longer than a dagger.",
+        "rules": [{"type": "attack", "range": "Melee", "attributes": ["Agility"], "damage": "1d4"}],
+        "keywords": ["Weapon"],
+        "cost": 2
+      }
+    ],
+    "keywords": ["Monster", "Animal"]
+  },
+  "skeleton": {
+    "name": "Skeleton",
+    "flavor": "Rattling bones with some knowledge of weapons.",
+    "attributes": {"might": 5, "agility": 6, "intellect": 5, "presence": 5, "fortitude": 5, "cunning": 5},
+    "perks": [{"id": "resist", "x": "Poison"}],
+    "inventory": ["short_sword", "hide_armor"],
+    "keywords": ["Monster", "Undead"]
+  }
+}

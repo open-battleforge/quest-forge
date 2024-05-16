@@ -1,0 +1,50 @@
+{
+  "name": "The Forgotten Tomb",
+  "description": "Journey through the forgotten tomb and discover its secrets.",
+  "introduction": "",
+  "scenarios": {
+    "the_woods": {
+      "name": "The Woods",
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque purus, faucibus et condimentum eu, finibus a tellus. Mauris ultricies sapien non magna sollicitudin tempor. Nunc ornare sapien ligula, quis ornare mi sagittis id. Sed sodales velit lacus, in tincidunt est mollis vel. Etiam scelerisque dolor sem, at laoreet ipsum auctor ut. Morbi condimentum tincidunt libero, eu condimentum neque tempus ut. Sed et nunc vel dui gravida egestas eget in odio.\n\nVivamus leo velit, tempor in porta non, vulputate eget odio. Sed rhoncus faucibus nulla sed molestie. Donec vitae viverra arcu. Integer ut sapien magna. Vestibulum hendrerit elit eu laoreet laoreet. In placerat est ac euismod imperdiet. Suspendisse at dolor lacus. Proin ac nulla vitae quam viverra bibendum sit amet non lorem. Ut tincidunt tristique quam ac tristique. Praesent viverra nibh elementum vehicula laoreet. Nulla facilisi. Donec eu tincidunt dolor.\n\nVestibulum sit amet semper tortor. Cras blandit sed velit quis luctus. Aenean mauris mauris, venenatis eu vehicula blandit, luctus eu nulla. Duis euismod egestas erat ut fermentum. Sed lobortis, lectus quis elementum scelerisque, libero turpis lobortis lacus, eu finibus enim lorem eu mauris. Aenean eget nunc non elit fermentum sagittis ut quis est. In hac habitasse platea dictumst. Nullam tempus, justo et suscipit imperdiet, mauris nisl convallis urna, ac lobortis dui turpis non mi.\n\nEtiam imperdiet augue leo, in consectetur libero tincidunt eu. Praesent volutpat vitae sapien id vehicula. Phasellus sed quam sit amet erat congue rutrum nec in ipsum. Curabitur ac est urna. Nulla vitae nibh non ligula volutpat vestibulum sit amet ut libero. Nunc volutpat ultricies metus nec pharetra. Fusce in nulla lacinia tellus porttitor placerat. Cras a lacus ex. Phasellus ultrices, dolor eget posuere dignissim, justo tortor ullamcorper sem, quis luctus nunc dolor a risus. Donec lectus ipsum, egestas ac neque eu, elementum mollis sapien. Fusce arcu eros, pulvinar non felis sit amet, sollicitudin varius lacus. Curabitur iaculis eros ut mi rhoncus blandit. Ut convallis lorem eget facilisis bibendum. Vestibulum velit enim, laoreet a elit id, mollis euismod augue. Etiam pellentesque et neque vitae rutrum.\n\nPhasellus eget consequat sapien. Suspendisse dictum, enim at posuere convallis, erat est finibus quam, sed pretium est metus at urna. Maecenas et diam ex. Pellentesque semper justo vel velit bibendum sagittis. Suspendisse potenti. Sed viverra ac nunc sed sagittis. Vestibulum vel nisi vulputate turpis ultricies fringilla. Phasellus faucibus libero sapien, vitae viverra mauris condimentum consectetur. Suspendisse vitae dignissim purus.",
+      "resolutions": {
+        "dead": {
+          "name": "Everyone Died",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque purus, faucibus et condimentum eu, finibus a tellus. Mauris ultricies sapien non magna sollicitudin tempor. Nunc ornare sapien ligula, quis ornare mi sagittis id. Sed sodales velit lacus, in tincidunt est mollis vel. Etiam scelerisque dolor sem, at laoreet ipsum auctor ut. Morbi condimentum tincidunt libero, eu condimentum neque tempus ut. Sed et nunc vel dui gravida egestas eget in odio.\n\nVivamus leo velit, tempor in porta non, vulputate eget odio. Sed rhoncus faucibus nulla sed molestie. Donec vitae viverra arcu. Integer ut sapien magna. Vestibulum hendrerit elit eu laoreet laoreet. In placerat est ac euismod imperdiet. Suspendisse at dolor lacus. Proin ac nulla vitae quam viverra bibendum sit amet non lorem. Ut tincidunt tristique quam ac tristique. Praesent viverra nibh elementum vehicula laoreet. Nulla facilisi. Donec eu tincidunt dolor.\n\nVestibulum sit amet semper tortor. Cras blandit sed velit quis luctus. Aenean mauris mauris, venenatis eu vehicula blandit, luctus eu nulla. Duis euismod egestas erat ut fermentum. Sed lobortis, lectus quis elementum scelerisque, libero turpis lobortis lacus, eu finibus enim lorem eu mauris. Aenean eget nunc non elit fermentum sagittis ut quis est. In hac habitasse platea dictumst. Nullam tempus, justo et suscipit imperdiet, mauris nisl convallis urna, ac lobortis dui turpis non mi.\n\nEtiam imperdiet augue leo, in consectetur libero tincidunt eu. Praesent volutpat vitae sapien id vehicula. Phasellus sed quam sit amet erat congue rutrum nec in ipsum. Curabitur ac est urna. Nulla vitae nibh non ligula volutpat vestibulum sit amet ut libero. Nunc volutpat ultricies metus nec pharetra. Fusce in nulla lacinia tellus porttitor placerat. Cras a lacus ex. Phasellus ultrices, dolor eget posuere dignissim, justo tortor ullamcorper sem, quis luctus nunc dolor a risus. Donec lectus ipsum, egestas ac neque eu, elementum mollis sapien. Fusce arcu eros, pulvinar non felis sit amet, sollicitudin varius lacus. Curabitur iaculis eros ut mi rhoncus blandit. Ut convallis lorem eget facilisis bibendum. Vestibulum velit enim, laoreet a elit id, mollis euismod augue. Etiam pellentesque et neque vitae rutrum.\n\nPhasellus eget consequat sapien. Suspendisse dictum, enim at posuere convallis, erat est finibus quam, sed pretium est metus at urna. Maecenas et diam ex. Pellentesque semper justo vel velit bibendum sagittis. Suspendisse potenti. Sed viverra ac nunc sed sagittis. Vestibulum vel nisi vulputate turpis ultricies fringilla. Phasellus faucibus libero sapien, vitae viverra mauris condimentum consectetur. Suspendisse vitae dignissim purus."
+        }
+      },
+      "locations": {
+        "pizza_hut": {
+          "name": "Pizza Hut",
+          "description": "You have entered the pizza hut of doom. Beware!",
+          "connections": ["the_street", "the_backroom"]
+        },
+        "the_backroom": {
+          "name": "The Backroom",
+          "description": "Ayo you out by da street.",
+          "connections": ["pizza_hut"]
+        },
+        "the_street": {
+          "name": "The Street",
+          "description": "Ayo you out by da street.",
+          "connections": ["pizza_hut"]
+        }
+      }
+    },
+    "the_graveyard": {
+      "name": "The Graveyard",
+      "introduction": ""
+    },
+    "floor_1": {
+      "name": "The Crypt",
+      "introduction": ""
+    },
+    "floor_2": {
+      "name": "The Depths",
+      "introduction": ""
+    },
+    "floor_3": {
+      "name": "Forgotten Hall",
+      "introduction": ""
+    }
+  }
+}

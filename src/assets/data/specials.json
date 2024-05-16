@@ -1,0 +1,14 @@
+{
+  "defensive": {"type": "passive", "inputs": ["x"], "name": "Defensive", "description": "Gain an additional +${x} Defense when performing the _Guard_ action."},
+  "recover": {"type": "ability", "name": "Recover", "inputs": ["x"], "description": "May _Use_ to recover ${x} Hitpoints."},
+  "uses": {"name": "Uses(x)", "inputs": ["x"], "description": "This item may be used ${x} times per game."},
+  "light": {"type": "ability", "name": "Light", "description": "May _Use_ to increase location brightness for 3 rounds."},
+  "sweeping": {"inputs": ["x"], "name": "Sweeping", "description": "Attacks with this weapon may be performed against up to ${x} _Engaged_ enemies (one at a time)."},
+  "piercing": {"inputs": ["x"], "name": "Piercing", "description": "Attacks with this weapon reduce enemy _Defense_ by ${x}."},
+  "reach": {"name": "Reach", "description": "Idk reach or something."},
+  "reload": {"name": "Reload", "description": "You must spend an action to _Reload_ this weapon before attacking with it again."},
+  "armor": {"type": "passive", "inputs": ["x"], "name": "Armor", "description": "Increases Defense by ${x}.", "effects": [{"type": "addStat", "stat": "defense", "value": "x"}]},
+  "tough": {"type": "passive", "inputs": ["x"], "name": "Tough", "description": "Increases Hitpoints by ${x}.", "effects": [{"type": "addStat", "stat": "hitpoints", "value": "x"}]},
+  "carry": {"type": "passive", "inputs": ["x"], "name": "Carry", "description": "Increases Carryweight by ${x}.", "effects": [{"type": "addStat", "stat": "carryweight", "value": "x"}]},
+  "heavy": {"type": "passive", "inputs": ["x"], "name": "Heavy", "description": "Decreases Agility by ${x}.", "effects": [{"type": "addStat", "stat": "attributes.agility", "value": ["x", {"multiply": -1 }]}]}
+}

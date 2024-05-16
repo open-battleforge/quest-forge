@@ -1,0 +1,122 @@
+{
+  "cleric": {
+    "name": "Cleric",
+    "description": "Clerics rely on holy magic to support their allies and defeat their foes.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "monk": {
+    "name": "Monk",
+    "description": "Monks typically choose to forgoe any and all martial weapons in favor of raw power.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "bard": {
+    "name": "Bard",
+    "description": "Bards can help out their friends with inspiring songs.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "warrior": {
+    "name": "Warrior",
+    "description": "Warriors are trained in all things combat including protecting their friends.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "rogue": {
+    "name": "Rogue",
+    "description": "Rogues are expert thiefs and masters of stealth.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "ranger": {
+    "name": "Ranger",
+    "description": "Rangers are master trailblazers and friends of animals alike.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "mage": {
+    "name": "Mage",
+    "description": "Mages are known for their knowledge of all things spells and magic.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "tinker": {
+    "name": "Tinker",
+    "description": "Tinkers rely on traps, machines and black powder firearms.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "enchanter": {
+    "name": "Enchanter",
+    "description": "Enchanters are trained in alchemy and magical crafting.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  },
+  "mesmer": {
+    "name": "Mesmer",
+    "description": "Mesmers are masters of illusion and trickery.",
+    "attributes": {
+      "might": 5,
+      "agility": 6,
+      "intellect": 5,
+      "presence": 5,
+      "fortitude": 5,
+      "cunning": 5
+    }
+  }
+}

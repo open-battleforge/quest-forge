@@ -1,0 +1,39 @@
+{
+  "perks": {
+    "quick_hands": {
+      "name": "Quick Hands",
+      "flavor": "Sleight of hand can come in handy, especially in life or death situations.",
+      "rules": [{"type": "ability", "description": "Once per round you may swap an equipped item without spending an action."}]
+    },
+    "swarm": {
+      "name": "Swarm",
+      "flavor": "Particulary dangerous in large numbers.",
+      "rules": [{"type": "ability", "description": "Gain +1 to hit with attacks for each other engaged friendly with _Swarm_."}]
+    },
+    "first_strike": {
+      "name": "First Strike",
+      "flavor": "With alert senses, you ambush your foes for maximum effectiveness.",
+      "rules": [{"type": "ability", "description": "Once per round, when an enemy enters your location, you may make a free attack against it."}]
+    },
+    "dwarf_stout": {"name": "Dwarf", "rules": [{"id": "tough", "x": 5}]},
+    "resist": {"name": "Resist", "inputs": ["x"], "rules": [{"type": "passive", "description": "Halve the value of any ${x} rules."}]},
+    "immune": {"name": "Immune", "inputs": ["x"], "rules": [{"type": "passive", "description": "Is not affected by the ${x} rule."}]}
+  },
+  "categories": {
+    "guardian": {"name": "Guardian", "class": "cleric", "perks": ["quick_hands", "first_strike"]},
+    "champion": {"name": "Champion", "class": "cleric", "perks": ["quick_hands", "first_strike"]},
+    "healer": {"name": "Healer", "class": "cleric", "perks": ["quick_hands", "first_strike"]},
+    "wizard": {"name": "Wizard", "class": "mage", "perks": ["quick_hands", "first_strike"]},
+    "conjurer": {"name": "Conjurer", "class": "mage", "perks": ["quick_hands", "first_strike"]},
+    "warlock": {"name": "Warlock", "class": "mage", "perks": ["quick_hands", "first_strike"]},
+    "fighter": {"name": "Fighter", "class": "warrior", "perks": ["quick_hands", "first_strike"]},
+    "barbarian": {"name": "Barbarian", "class": "warrior", "perks": ["quick_hands", "first_strike"]},
+    "knight": {"name": "Knight", "class": "warrior", "perks": ["quick_hands", "first_strike"]},
+    "survivalist": {"name": "Survivalist", "class": "ranger", "perks": ["quick_hands", "first_strike"]},
+    "tamer": {"name": "Tamer", "class": "ranger", "perks": ["quick_hands", "first_strike"]},
+    "archer": {"name": "Archer", "class": "ranger", "perks": ["quick_hands", "first_strike"]},
+    "assassin": {"name": "Assassin", "class": "rogue", "perks": ["quick_hands", "first_strike"]},
+    "duelist": {"name": "Duelist", "class": "rogue", "perks": ["quick_hands", "first_strike"]},
+    "thief": {"name": "Thief", "class": "rogue", "perks": ["quick_hands", "first_strike"]}
+  }
+}

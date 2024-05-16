@@ -1,0 +1,51 @@
+{
+  "halfling": {
+    "name": "Halfling",
+    "description": "Halflings are small folk."
+  },
+  "human": {
+    "name": "Human",
+    "description": "Humans are adaptable."
+  },
+  "dwarf": {
+    "name": "Dwarf",
+    "description": "Dwarves are short.",
+    "perks": ["dwarf_stout"]
+  },
+  "elf": {
+    "name": "Elf",
+    "description": "Elves are fast."
+  },
+  "orc": {
+    "name": "Orc",
+    "description": "Orcs are strong."
+  },
+  "avian": {
+    "name": "Avian",
+    "description": "Avian are mysterious."
+  },
+  "dragonborn": {
+    "name": "Dragonborn",
+    "description": "Dragonborn breathe fire."
+  },
+  "gnome": {
+    "name": "Gnome",
+    "description": "Gnomes are magical."
+  },
+  "catfolk": {
+    "name": "Catfolk",
+    "description": "Catfolk are stealthy."
+  },
+  "daemonkin": {
+    "name": "Daemonkin",
+    "description": "Daemonkin are tricky."
+  },
+  "steelborn": {
+    "name": "Steelborn",
+    "description": "Steelborn are tough."
+  },
+  "undead": {
+    "name": "Undead",
+    "description": "Undead are scary."
+  }
+}

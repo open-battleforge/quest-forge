@@ -1,0 +1,7 @@
+{
+  "spike_trap": {
+    "name": "Spike Trap",
+    "description": "Owwie that hurts.",
+    "keywords": ["Hazard", "Disarmable"]
+  }
+}

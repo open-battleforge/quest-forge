@@ -1,0 +1,11 @@
+{
+  "attributes": {
+    "might": {"name": "Might", "shortName": "Mig", "description": "Lift heavy objects, fight with might weapons and overpower your enemies."},
+    "agility": {"name": "Agility", "shortName": "Agi", "description": "Dodge out of the way, fight with agility weapons and sneak."},
+    "intellect": {"name": "Intellect", "shortName": "Int", "description": "Recall facts, use magical weapons and solve puzzles."},
+    "fortitude": {"name": "Fortitude", "shortName": "For", "description": "Survive physical blows, injuries and harsh conditions."},
+    "presence": {"name": "Presence", "shortName": "Pre", "description": "Coerce, or threaten others and keep your calm in situations."},
+    "cunning": {"name": "Cunning", "shortName": "Cun", "description": "Notice important things, craft items and outwit your foes."}
+  },
+  "modifiers": {"0": "-1d12", "1": "-1d10", "2": "-1d8", "3": "-1d6", "4": "-1d4", "5": "n/a", "6": "+1d4", "7": "+1d6", "8": "+1d8", "9": "+1d10", "10": "+1d12"}
+}

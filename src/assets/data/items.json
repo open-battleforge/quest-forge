@@ -1,0 +1,132 @@
+{
+  "gold": {"name": "Gold Pieces", "flavor": "The common currency of the world.", "damage": "1d8", "keywords": ["Gear", "Misc"], "cost": 1, "weight": 0},
+  "torch": {"name": "Torch", "flavor": "Used for lighting up even the darkest of areas.", "keywords": ["Gear", "One-Handed"], "rules": ["light", {"id": "uses", "x": 3}], "weight": 3, "cost": 2},
+  "bandage": {"name": "Bandage", "flavor": "Good for patching up some scrapes.", "keywords": ["Gear"], "cost": 2, "weight": 0.25},
+  "small_meal": {"name": "Small Meal", "flavor": "Good for recovering a bit of stamina.", "rules": [{"id": "recover", "x": "1d4"}], "keywords": ["Gear", "Food"], "cost": 2, "weight": 0.25},
+  "potion_healing": {
+    "name": "Potion of Healing",
+    "flavor": "Good for healing up some light injuries.",
+    "rules": [{"type": "ability", "description": "May _Use_ to recover 1d6 Hitpoints."}],
+    "keywords": ["Gear", "Potion"],
+    "cost": 2,
+    "weight": 0.5
+  },
+  "hunting_trap": {
+    "name": "Hunting Trap",
+    "flavor": "Good for surprising unaware enemies.",
+    "rules": [{"type": "ability", "description": "May _Use_ to trap an _entrance_ to your current location. The first enemy that enters through must pass an Agility(15) test or suffer 1d4 damage."}],
+    "keywords": ["Gear", "Trap"],
+    "cost": 2,
+    "weight": 0.5
+  },
+  "claymore": {"name": "Claymore", "keywords": ["Weapon", "One-Handed", "Melee"], "cost": 2},
+  "club": {"name": "Club", "cost": 1, "keywords": ["Weapon", "One-Handed", "Melee"]},
+  "dagger": {"name": "Dagger", "flavor": "Good for stabbin'.", "cost": 2, "weight": 1, "keywords": ["Weapon", "One-Handed", "Melee"], "damage": "1d4"},
+  "firebomb_elixir": {"name": "Firebomb Elixir", "keywords": ["Weapon", "One-handed", "Thrown"], "range": 25, "cost": 2},
+  "glaive": {"name": "Glaive", "cost": 2},
+  "great_axe": {"name": "Great Axe", "cost": 2},
+  "handaxe": {
+    "name": "Handaxe",
+    "flavor": "A straight-bladed double-edged sword large enough to require the use of two hands to wield it effectively.",
+    "rules": [{"type": "attack", "range": "Melee", "attributes": ["Might"], "damage": "1d6"}, {"id": "piercing", "x": 1}],
+    "keywords": ["Weapon", "One-Handed"],
+    "cost": 2
+  },
+  "greatsword": {
+    "name": "Greatsword",
+    "flavor": "A straight-bladed double-edged sword large enough to require the use of two hands to wield it effectively.",
+    "rules": [{"type": "attack", "range": "Melee", "attributes": ["Might"], "damage": "2d6"}, {"id": "sweeping", "x": 2}],
+    "keywords": ["Weapon", "Two-Handed"],
+    "cost": 2
+  },
+  "halberd": {"name": "Halberd", "cost": 2},
+  "handgun": {"name": "Handgun", "range": 25, "cost": 2},
+  "heavy_crossbow": {
+    "name": "Heavy Crossbow",
+    "flavor": "A straight-bladed double-edged sword large enough to require the use of two hands to wield it effectively.",
+    "rules": [{"type": "attack", "range": "Long", "attributes": ["Might"], "damage": "1d10"}, {"id": "piercing", "x": 1}, "reload"],
+    "keywords": ["Weapon", "Two-Handed"],
+    "cost": 2
+  },
+  "shortbow": {
+    "name": "Shortbow",
+    "flavor": "A small bow that has a strong tension, and is usually about a meter tall.",
+    "rules": [{"type": "attack", "range": "Short", "attributes": ["Agility"], "damage": "1d6"}],
+    "keywords": ["Weapon", "Two-Handed"],
+    "cost": 2
+  },
+  "improvised_weapon": {"name": "Improvised Weapon", "cost": 1},
+  "light_crossbow": {"name": "Light Crossbow", "range": 75},
+  "long_spear": {"name": "Long Spear", "range": 25, "cost": 2},
+  "longbow": {"name": "Longbow", "range": 125, "cost": 2},
+  "longsword": {"name": "Longsword", "hands": 3, "cost": 2},
+  "mace": {"name": "Mace", "cost": 2},
+  "maul": {"name": "Maul", "cost": 2},
+  "scimitar": {"name": "Scimitar", "cost": 2, "keywords": ["Weapon", "One-Handed"]},
+  "short_spear": {"name": "Short Spear", "hands": 3, "range": 50, "cost": 1},
+  "short_sword": {
+    "name": "Short Sword",
+    "flavor": "A sword generally shorter than one meter, but longer than a dagger.",
+    "rules": [{"type": "attack", "range": "Melee", "attributes": ["Agility", "Might"], "damage": "1d6"}],
+    "keywords": ["Weapon", "One-Handed"],
+    "cost": 2
+  },
+  "small_shield": {"name": "Small Shield", "cost": 2, "rules": [{"id": "defensive", "x": 1}]},
+  "staff": {"name": "Staff", "cost": 1, "rules": [{"type": "attack", "range": "Short", "attributes": ["Intellect"], "damage": "1d6"}], "keywords": ["Weapon", "Two-handed", "Melee", "Ranged"]},
+  "wand": {"name": "Wand", "rules": [{"type": "attack", "range": "Short", "attributes": ["Intellect"], "damage": "1d4"}], "keywords": ["Weapon", "One-handed", "Ranged"], "cost": 1},
+  "tower_shield": {"name": "Tower Shield", "cost": 3},
+  "unarmed_strike": {"name": "Unarmed Strike", "cost": 0},
+  "spell_fireball": {
+    "name": "Spell: Fireball",
+    "flavor": "A book containing the incantations necessary to hurl a ball of fire at your enemies.",
+    "keywords": ["Spell", "Intellect"],
+    "attacks": 1,
+    "damage": 3,
+    "cost": 15,
+    "rules": [{"type": "attack", "range": "Short", "attributes": ["Intellect"], "damage": "1d8"}, {"id": "uses", "x": 3}]
+  },
+  "song_charm": {
+    "name": "Song: Charm",
+    "flavor": "A book of musical instructions for playing a charm song.",
+    "keywords": ["Spell", "Presence"],
+    "attacks": 1,
+    "damage": 3,
+    "cost": 15,
+    "rules": [{"id": "uses", "x": 3}]
+  },
+  "cloth_armor": {"name": "Cloth Armor", "flavor": "A basic cloth outfit, mostly for decorative purposes.", "keywords": ["Armor"], "weight": 0, "cost": 15},
+  "padded_armor": {
+    "name": "Padded Armor",
+    "flavor": "A padded vest, for the minimal protection against attacks.",
+    "rules": [{"id": "armor", "x": 1}],
+    "keywords": ["Armor", "Light"],
+    "weight": 1,
+    "cost": 15
+  },
+  "small_backpack": {
+    "name": "Small Backpack",
+    "flavor": "A small backpack for carrying things.",
+    "rules": [{"id": "carry", "x": 5}],
+    "keywords": ["Armor", "Back"],
+    "weight": 1,
+    "cost": 15
+  },
+  "large_backpack": {
+    "name": "Large Backpack",
+    "flavor": "A heavy backpack for carrying many things.",
+    "rules": [{"id": "carry", "x": 10}, {"id": "heavy", "x": 1}],
+    "keywords": ["Armor", "Back"],
+    "weight": 1,
+    "cost": 15
+  },
+  "hide_armor": {
+    "name": "Hide Armor",
+    "flavor": "Boiled or dried hide that still allows for some maneuvering.",
+    "keywords": ["Armor", "Light"],
+    "rules": [{"id": "armor", "x": 2}],
+    "weight": 2,
+    "cost": 15
+  },
+  "iron_armor": {"name": "Plate Armor", "flavor": "Forged iron armor, good for blocking a lot of strikes.", "keywords": ["Armor", "Heavy"], "weight": 3, "cost": 15},
+  "warhammer": {"name": "Warhammer", "cost": 2, "rules": {}}
+}
