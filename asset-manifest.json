@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/quest-forge/static/css/main.cf4143dc.css",
+    "main.js": "/quest-forge/static/js/main.60349a52.js",
+    "static/js/787.be682928.chunk.js": "/quest-forge/static/js/787.be682928.chunk.js",
+    "static/media/splash.jpg": "/quest-forge/static/media/splash.14102cbcbdfa8df9c1e1.jpg",
+    "static/media/logo_large.png": "/quest-forge/static/media/logo_large.5b1f6f3794dc4d809d7c.png",
+    "static/media/2_characters.md": "/quest-forge/static/media/2_characters.8e691a1fab1f9cda12af.md",
+    "index.html": "/quest-forge/index.html",
+    "static/media/3_attribute_tests.md": "/quest-forge/static/media/3_attribute_tests.8a39bf5a901e55a90edb.md",
+    "static/media/1_introduction.md": "/quest-forge/static/media/1_introduction.b3e24bb65cf9329216ad.md",
+    "static/media/index.cjs": "/quest-forge/static/media/index.06ad11ea3e32fd3e4303.cjs",
+    "static/media/4_abilities_effects.md": "/quest-forge/static/media/4_abilities_effects.8b4994a9db057d62ac28.md",
+    "static/media/8_game_mastering.md": "/quest-forge/static/media/8_game_mastering.a6b91d98cb1479f1e409.md",
+    "static/media/5_equipment.md": "/quest-forge/static/media/5_equipment.8b1337ffa1f28987596d.md",
+    "static/media/6_combat.md": "/quest-forge/static/media/6_combat.2402a9349f15b25029c4.md",
+    "static/media/7_npcs_and_enemies.md": "/quest-forge/static/media/7_npcs_and_enemies.bfa010cf8ecca2583a12.md",
+    "main.cf4143dc.css.map": "/quest-forge/static/css/main.cf4143dc.css.map",
+    "main.60349a52.js.map": "/quest-forge/static/js/main.60349a52.js.map",
+    "787.be682928.chunk.js.map": "/quest-forge/static/js/787.be682928.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf4143dc.css",
+    "static/js/main.60349a52.js"
+  ]
+}
